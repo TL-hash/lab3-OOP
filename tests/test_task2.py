@@ -1,5 +1,5 @@
 import pytest
-from tasks.task2 import Rational, MAX_SIZE
+from lab3_oop.tasks.task2 import Rational, MAX_SIZE
 
 
 def test_rational_creation():

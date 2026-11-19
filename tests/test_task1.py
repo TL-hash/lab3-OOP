@@ -1,5 +1,5 @@
 import pytest
-from tasks.task1 import make_area, Figure
+from lab3_oop.tasks.task1 import make_area, Figure
 
 
 def test_make_area_triangle():
