@@ -34,9 +34,9 @@ def test_figure_comparisons():
     triangle = Figure(6, 4)
     rectangle = Figure(5, 3, 1)
 
-    assert (triangle == rectangle) is False
-    assert (triangle != rectangle) is True
-    assert (triangle < rectangle) is True
-    assert (triangle > rectangle) is False
-    assert (triangle <= rectangle) is True
-    assert (triangle >= rectangle) is False
+    assert not (triangle == rectangle)
+    assert triangle != rectangle
+    assert triangle < rectangle
+    assert not (triangle > rectangle)
+    assert triangle <= rectangle
+    assert not (triangle >= rectangle)

@@ -28,10 +28,10 @@ def test_rational_comparisons():
     r1 = Rational("3/4")
     r2 = Rational("5/6")
 
-    assert (r1 == r2) is False
-    assert (r1 != r2) is True
-    assert (r1 < r2) is True
-    assert (r1 > r2) is False
+    assert not (r1 == r2)
+    assert r1 != r2
+    assert r1 < r2
+    assert not (r1 > r2)
 
 
 def test_rational_indexing():
